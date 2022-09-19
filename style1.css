@@ -1,0 +1,165 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color:black;
+}
+nav{
+    background-color:black;
+    height: 60px;
+}
+nav ul{
+    display: flex;
+    justify-content:flex-end;
+    align-items:flex-end;
+    padding: 20px;
+}
+nav ul li a:hover{
+    color: deeppink;
+}
+.navbar{
+    list-style: none;
+}
+.navbar a {
+    text-decoration: none;
+    font-size: 20px;
+    margin: 14px;
+    color:orange;
+    font-family: 'Nunito', sans-serif;
+}
+#home::before{
+    content: "";
+    position: absolute;
+    background: url("../image/b2.png") no-repeat center center/cover;
+    
+    opacity: 1;
+    width: 100vw;
+    height: 86vh;
+}
+#h1{
+    position: relative;
+    top: 210px;
+    font-family: 'Ubuntu', sans-serif;
+} 
+#home p{
+    position: relative;
+    top: 210px;
+    font-family: 'Ubuntu', sans-serif;
+} 
+
+.intro{
+    text-align: center;
+    animation-name:name;
+    animation-iteration-count: 1;
+    animation-duration: .6s;
+    animation-delay: .1s;
+    animation-timing-function:ease-in-out;
+    animation-fill-mode:both;
+}
+@keyframes name{
+    from{
+        font-size: 0;
+        top: 0px;
+    }
+    to{
+       color:deeppink;
+       font-size: 85px;
+    }
+}
+#about{
+    position: relative;
+    top: 370px;
+    text-align: center;
+    background: url('../img/bg.png');
+}
+#about p{
+    color: white;
+}
+#about h3{
+    font-size: 35px;
+    color:orchid;
+    font-family: 'Nunito', sans-serif;
+    margin-top: 90px;
+}
+#about div img{
+    height: 200px;
+    width: 200px;
+    border-radius: 155px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#para1{
+    position: relative;
+    margin-top: 30px;
+    font-size: 25px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#para2{
+    font-size: 25px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#more{
+    position: relative;
+    top: 368px;
+    text-align: center;
+ 
+    height: 55vh;
+    width: 100vw;
+}
+#more h3{
+    font-family: 'Nunito', sans-serif;
+    font-size: 35px;
+    color:orchid;
+    margin-top: 100px;
+}
+#more p{
+    position: relative;
+    margin-top: 90px;
+    margin-bottom: 70px;
+    font-size: 25px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+}
+footer{
+    font-family: 'Nunito', sans-serif;
+    background-color: black;
+    display: flex;
+    color: white;
+    position: relative;
+    top: 368px;
+    justify-content: center;
+    align-items: center;
+}
+footer  img{
+    height: 20px;
+    width: 20px;
+    margin-top: 5px;
+    margin-left: 9px;
+    border-radius: 8px;
+}
+#contact{
+    font-size: 30px;
+    font-family: cursive;
+}
+footer a{
+  
+    padding: 7px ;
+    color: palevioletred;
+    display:flex;
+    
+    
+    padding: 10px ;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+
+
+
+
+
+
